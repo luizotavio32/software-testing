@@ -1,2 +1,2 @@
 # software-testing
-Softaware testing done through my Computer Science masters at Universidade Federal de São Paulo
+Software testing exercises with different techniques done through my Computer Science masters at Universidade Federal de São Paulo
