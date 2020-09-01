@@ -13,4 +13,9 @@ describe('Identifier validator', () => {
 		const ret = isValid('12345')
 		expect(ret).toEqual(false)
 	})
+
+	test('return false if string contains invalid character', () => {
+		const ret = isValid('ab*123')
+		expect(ret).toEqual(false)
+	})
 })
