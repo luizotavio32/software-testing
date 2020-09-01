@@ -25,4 +25,11 @@ describe('Identifier validator', () => {
 		const ret = isValid(null!)
 		expect(ret).toEqual(false)
 	})
+
+	test('return true of string is a valid identifier and len() = 1', () => {
+		const ret = isValid('a')
+		expect(ret).toEqual(true)
+	})
+		
+	
 })
