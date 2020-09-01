@@ -15,4 +15,9 @@ describe('Identifier validator', () => {
 		const ret = isValid('')
 		expect(ret).toEqual(false)
 	})
+
+	test('return false if string length is greather than 6', () => {
+		const ret = isValid('abc12345')
+		expect(ret).toEqual(false)
+	})
 })
