@@ -1,7 +1,7 @@
 import { isValid } from './sillyPascal'
 
 // Test cases created to cover equivalence classes:
-// ("1234", false) - Starts with a letter
+// ("12345", false) - Starts with a letter
 // ("a12^34", false) - Contains only letters or digits
 // ("", false) - len(S) = 0
 // ("a12345678", false) - len(S) > 6
@@ -9,5 +9,8 @@ import { isValid } from './sillyPascal'
 // ("a1234", true) - valid identifier
 
 describe('Identifier validator', () => {
- 
+	test('return false if string does not starts with a letter', () =>{
+		const ret = isValid('12345')
+		expect(ret).toEqual(false)
+	})
 })
