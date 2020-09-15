@@ -9,6 +9,11 @@ describe('return valid tax amount acording to monthly income', () => {
     test('return (income - 1000$) * (0.15) if income is more than 1000$ and less or equal 2000$', () =>{
 		const ret = calculaIR(1400)
 		expect(ret).toEqual(60)
+    })
+    
+    test('return (income - 1000$) * (0.15) if income is equal to 2000$', () =>{
+		const ret = calculaIR(2000)
+		expect(ret).toEqual(150)
 	})
 
 	
