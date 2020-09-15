@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600174802987" clover="3.2.0">
-  <project timestamp="1600174802987" name="All files">
-    <metrics statements="9" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1" elements="18" coveredelements="16" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+<coverage generated="1600175087233" clover="3.2.0">
+  <project timestamp="1600175087233" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="18" coveredelements="18" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
     <file name="imposto-de-renda.ts" path="/home/luiz/Área de Trabalho/repo/software-testing/structural-test/src/imposto-de-renda.ts">
-      <metrics statements="9" coveredstatements="8" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
       <line num="6" count="1" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="8" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="cond" truecount="4" falsecount="0"/>
       <line num="9" count="2" type="stmt"/>
-      <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="14" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="15" count="0" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
+      <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
     </file>
   </project>
 </coverage>
