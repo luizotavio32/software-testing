@@ -47,9 +47,9 @@ export function shouldSellStock (stock: Stock){
 
 	if(volatility >= stock.gain_notify){
 		if(stock.should_sell_onGain) {
-			return 'Volatility: ' + volatility + ', is above you gain margin, selling now as intended'
+			return 'Volatility: ' + volatility + ', is above your gain margin, selling now as intended'
 		} else {
-			return 'Volatility: ' + volatility + ', is above you gain margin, do you want to sell?'
+			return 'Volatility: ' + volatility + ', is above your gain margin, do you want to sell?'
 		}
 	}
 
