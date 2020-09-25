@@ -37,6 +37,20 @@ describe('return correct statement according to stock price volatility', () => {
 		const ret = shouldSellStock(stock)
 		expect(ret).toEqual('Invalid stock actual price')
 	
+	})
+	
+	test('return ERROR if loss notify is not betwwen 0 and 1', () =>{
+		const stock: Stock = {
+			buy_price: 1,
+			actual_price: 1,
+			loss_notify: 1.25,
+			stop_loss: 0.6, 
+			gain_notify: 1.40,
+			should_sell_onGain: true
+		}
+		const ret = shouldSellStock(stock)
+		expect(ret).toEqual('Invalid loss price to notify')
+		
     })
     
     

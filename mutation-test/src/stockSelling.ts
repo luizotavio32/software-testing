@@ -19,7 +19,7 @@ export function shouldSellStock (stock: Stock){
 		return 'Invalid stock actual price'
 	}
 
-	if(stock.loss_notify <= 0 && stock.loss_notify >= 1){
+	if(stock.loss_notify <= 0 || stock.loss_notify >= 1){
 		return 'Invalid loss price to notify'
 	}
 
