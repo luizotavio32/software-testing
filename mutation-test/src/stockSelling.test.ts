@@ -168,16 +168,17 @@ describe('return correct statement according to stock price volatility', () => {
 	test('sell stock if volatility reached or surpassed gain_notify price', () =>{
 		const stock: Stock = {
 			buy_price: 20,
-			actual_price: 21.2,
+			actual_price: 21,
 			loss_notify: 0.97,
 			stop_loss: 0.95, 
 			gain_notify: 1.05,
 			should_sell_onGain: true
 		}
 		const ret = shouldSellStock(stock)
-		expect(ret).toEqual('Volatility: 1.06, is above your gain margin, selling now as intended')
+		expect(ret).toEqual('Volatility: 1.05, is above your gain margin, selling now as intended')
 		
-    })
+	})
+	
     
     
 
