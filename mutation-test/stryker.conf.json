@@ -8,8 +8,10 @@
     "progress"
   ],
   "testRunner": "jest",
-  "transpilers": [],
-  "coverageAnalysis": "off",
+  "transpilers": [
+    "typescript"
+  ],
+  "coverageAnalysis": "perTest",
   "tsconfigFile": "tsconfig.json",
   "mutate": [
     "src/**/*.ts",

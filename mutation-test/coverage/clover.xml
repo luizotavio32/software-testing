@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1601054363296" clover="3.2.0">
-  <project timestamp="1601054363296" name="All files">
+<coverage generated="1601061707238" clover="3.2.0">
+  <project timestamp="1601061707238" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="28" coveredconditionals="27" methods="1" coveredmethods="1" elements="51" coveredelements="50" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
     <file name="stockSelling.ts" path="/home/luiz/Área de Trabalho/repo/software-testing/mutation-test/src/stockSelling.ts">
       <metrics statements="22" coveredstatements="22" conditionals="28" coveredconditionals="27" methods="1" coveredmethods="1"/>
