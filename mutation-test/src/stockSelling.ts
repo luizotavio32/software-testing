@@ -23,7 +23,7 @@ export function shouldSellStock (stock: Stock){
 		return 'Invalid loss price to notify'
 	}
 
-	if(stock.stop_loss <= 0 && stock.stop_loss >= 1){
+	if(stock.stop_loss <= 0 || stock.stop_loss >= stock.loss_notify){
 		return 'Invalid stop loss price'
 	}
 
