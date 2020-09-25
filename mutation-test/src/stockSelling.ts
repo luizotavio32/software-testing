@@ -42,7 +42,7 @@ export function shouldSellStock (stock: Stock){
 	}
 
 	if(volatility <= stock.stop_loss){
-		return 'Volatility: ' + volatility + ', is bellow you stop loss, selling now'
+		return 'Volatility: ' + volatility + ', is bellow or equal you stop loss, selling now'
 	}
 
 	if(volatility >= stock.gain_notify){

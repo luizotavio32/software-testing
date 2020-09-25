@@ -135,6 +135,20 @@ describe('return correct statement according to stock price volatility', () => {
 		const ret = shouldSellStock(stock)
 		expect(ret).toEqual('Volatility: 0.96, is in an attention zone do you want to sell?')
 		
+	})
+	
+	test('sell stock if volatility is equal or less than stop loss', () =>{
+		const stock: Stock = {
+			buy_price: 20,
+			actual_price: 19,
+			loss_notify: 0.97,
+			stop_loss: 0.95, 
+			gain_notify: 1.1,
+			should_sell_onGain: true
+		}
+		const ret = shouldSellStock(stock)
+		expect(ret).toEqual('Volatility: 0.95, is bellow or equal you stop loss, selling now')
+		
     })
     
     
