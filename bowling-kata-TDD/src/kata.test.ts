@@ -20,7 +20,7 @@ describe('bowling game', () =>{
         expect(g.score()).toBe(20)
     })
 
-    test('should score 17 with a spare followed by a 3 ball', () => {
+    test('should score 16 with a spare followed by a 3 ball', () => {
         g.roll(5)
         g.roll(5)
         g.roll(3)
