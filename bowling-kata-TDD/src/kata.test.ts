@@ -21,12 +21,15 @@ describe('bowling game', () =>{
     })
 
     test('should score 16 with a spare followed by a 3 ball', () => {
-        g.roll(5)
-        g.roll(5)
+        rollSpare()
         g.roll(3)
         expect(g.score()).toBe(16)
     })
 
+    function rollSpare(): void {
+        g.roll(5)
+        g.roll(5)
+    }
     function rollMany(n: number, pins: number) : void {
         for(let i = 0; i < n; i++){
             g.roll(pins)
