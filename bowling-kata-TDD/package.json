@@ -1,0 +1,19 @@
+{
+  "name": "bowling-kata-TDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^26.0.1",
+    "nodemon": "2.0.4",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.4.3"
+  }
+}

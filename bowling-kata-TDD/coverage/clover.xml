@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1601151757027" clover="3.2.0">
+  <project timestamp="1601151757028" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8" elements="33" coveredelements="33" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="kata.ts" path="/home/luiz/Área de Trabalho/repo/software-testing/bowling-kata-TDD/src/kata.ts">
+      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="6" type="stmt"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="9" count="50" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="11" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="12" count="39" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="38" type="stmt"/>
+      <line num="17" count="38" type="stmt"/>
+      <line num="20" count="5" type="stmt"/>
+      <line num="24" count="38" type="stmt"/>
+      <line num="28" count="11" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="37" count="50" type="stmt"/>
+      <line num="41" count="39" type="stmt"/>
+      <line num="45" count="74" type="stmt"/>
+    </file>
+  </project>
+</coverage>
