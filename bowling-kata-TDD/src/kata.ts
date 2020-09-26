@@ -1,12 +1,21 @@
 export class Game {
-private _score: number = 0
 
-    get score(): number {
-        return this._score
+private rolls: number[] = Array(21).fill(0)
+private currentRoll: number = 0
+
+    score(): number {
+        let score = 0
+        let i = 0
+        for(let frame = 0; frame < this.rolls.length; frame++) {
+            score += this.rolls[i] + this.rolls[i+1]
+            i += 2
+        }
+        return score
     }
 
     roll (pins:number): void {
-        this._score += pins
+
+        this.rolls[this.currentRoll++] = pins
     }
 
     
